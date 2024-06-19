@@ -10,9 +10,8 @@ import Chart from './pages/Chart';
 import ECommerce from './pages/Dashboard/ECommerce';
 import FormElements from './pages/Form/FormElements';
 import FormLayout from './pages/Form/FormLayout';
-import Profile from './pages/Profile';
+
 import Settings from './pages/Settings';
-import Tables from './pages/Tables';
 import Alerts from './pages/UiElements/Alerts';
 import Buttons from './pages/UiElements/Buttons';
 
@@ -52,15 +51,6 @@ function App() {
           }
         />
         <Route
-          path="/profile"
-          element={
-            <>
-              <PageTitle title="Profile | TailAdmin - Tailwind CSS Admin Dashboard Template" />
-              <Profile />
-            </>
-          }
-        />
-        <Route
           path="/forms/form-elements"
           element={
             <>
@@ -75,15 +65,6 @@ function App() {
             <>
               <PageTitle title="Form Layout | TailAdmin - Tailwind CSS Admin Dashboard Template" />
               <FormLayout />
-            </>
-          }
-        />
-        <Route
-          path="/tables"
-          element={
-            <>
-              <PageTitle title="Tables | TailAdmin - Tailwind CSS Admin Dashboard Template" />
-              <Tables />
             </>
           }
         />
